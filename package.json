@@ -1,20 +1,17 @@
 {
   "name": "cora-ui-vue3",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "type": "module",
-  "main": "./dist/index.umd.js",
-  "module": "./dist/index.es.js",
-  "exports": {
-    ".": {
-      "import": "./dist/index.es.js",
-      "require": "./dist/index.umd.js"
-    },
-    "./style.css": "./dist/cora-ui-vue3.css"
-  },
+  "main": "dist/index.umd.js",
+  "module": "dist/index.es.js",
   "files": [
     "dist"
   ],
-  "types": "./dist/index.d.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:lib": "vite build --config vite.lib.config.js"
+  },
   "peerDependencies": {
     "vue": "^3.0.0"
   },
@@ -39,11 +36,5 @@
     "components"
   ],
   "author": "your-name",
-  "license": "MIT",
-  "dependencies": {
-    "@vueuse/head": "^2.0.0",
-    "github-markdown-css": "^5.8.1",
-    "prismjs": "^1.30.0",
-    "vue-router": "^4.6.3"
-  }
+  "license": "MIT"
 }
