@@ -9,6 +9,7 @@
             </li>      
         </ul>
         <Menu v-if="toggleMenuButtonVisible" class="toggleAside" @click="updateMenuVisible"></Menu>
+  
     </div>
 </template>
 
@@ -19,12 +20,15 @@ import type { Ref } from 'vue'
 import Logo from './icons/Logo.svg'
 import Menu from './icons/Menu.svg'
 
+
+
 // 使用更传统的组件定义方式
 const Topnav = {
     name: 'Topnav',
     components: {
         Logo,
-        Menu
+        Menu,
+      
     },
     props: {
         toggleMenuButtonVisible: {
