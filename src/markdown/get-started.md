@@ -20,7 +20,7 @@ import {Button, Tabs, Switch, Dialog} from "cora-ui-vue3"
   </div>
 </template>
 <script>
-import {Button, Tabs, Switch, Dialog} from "cora-ui"
+import {Button, Tabs, Switch, Dialog} from "cora-ui-vue3"
 export default {
   components: {Button}
 }

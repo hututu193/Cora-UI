@@ -68,7 +68,7 @@ $grey: grey;
   color: $color;
   border: 1px solid $border-color;
   border-radius: $radius;
-  box-shadow: 0 1px 0 fade-out(black, 0.95);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
   /* transition: background 250ms; */
   transition: background 250ms, transform 250ms ease;
   /* transform: translateY(0); // 设置初始状态 */
@@ -106,7 +106,7 @@ $grey: grey;
     color: $blue;
     &:hover,
     &:focus {
-      color: lighten($blue, 10%);
+      color: color.adjust($blue, $lightness: 10%);
     }
   }
   &.gulu-theme-text {
@@ -118,7 +118,7 @@ $grey: grey;
     color: inherit;
     &:hover,
     &:focus {
-      background: darken(white, 5%);
+      background: color.adjust(white, $lightness: -5%);
       
     }
   }
