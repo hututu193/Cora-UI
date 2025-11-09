@@ -106,7 +106,7 @@ $grey: grey;
     color: $blue;
     &:hover,
     &:focus {
-      color: color.adjust($blue, $lightness: 10%);
+      color: lighten($blue, 10%);
     }
   }
   &.gulu-theme-text {
@@ -118,7 +118,7 @@ $grey: grey;
     color: inherit;
     &:hover,
     &:focus {
-      background: color.adjust(white, $lightness: -5%);
+      background: darken(white, 5%);
       
     }
   }
