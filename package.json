@@ -9,10 +9,10 @@
   ],
   "style": "dist/style.css",
   "scripts": {
-    "dev": "vite", // 本地开发
-    "build": "vite build", // 构建演示网站
-    "build:lib": "vite build --config vite.lib.config.js", // 构建库
-    "preview": "vite preview" // 预览生产构建
+    "dev": "vite",
+    "build": "vite build",
+    "build:lib": "vite build --config vite.lib.config.js",
+    "preview": "vite preview"
   },
   "peerDependencies": {
     "vue": "^3.0.0"
