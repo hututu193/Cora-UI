@@ -11,7 +11,7 @@
 </template>
 
 <script setup lang="ts">
-import { showMessage } from './message'
+import { showMessage } from '../../lib/message'
 const showTopLeft = () => showMessage('左上角提示', 'info', 3000, 'top-left')
 const showTopRight = () => showMessage('右上角提示', 'info', 3000, 'top-right')
 const showBottomLeft = () => showMessage('左下角提示', 'info', 3000, 'bottom-left')

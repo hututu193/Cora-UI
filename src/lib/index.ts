@@ -14,13 +14,14 @@ import Tab from './Tab.vue'
 import Tabs from './Tabs.vue'
 import Button from './Button.vue'
 import { openDialog } from './openDialog.ts'
-
+import { showMessage } from './message.ts'
 // 导出所有组件和工具函数
 export {
     Switch,
     Select,
     Option,
     Message,
+    showMessage,
     Input,
     Checkbox,
     CheckboxGroup,

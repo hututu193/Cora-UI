@@ -1,5 +1,5 @@
 import { h, render } from 'vue'
-import { Message } from '../../lib'
+import Message from './Message.vue'
 
 
 

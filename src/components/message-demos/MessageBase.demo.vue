@@ -11,7 +11,7 @@
 </template>
 
 <script setup lang="ts">
-import { showMessage } from './message'
+import { showMessage } from '../../lib/message'
 const showInfo = () => showMessage('这是普通提示')
 const showSuccess = () => showMessage('操作成功', 'success', 2000)
 const showWarning = () => showMessage('警告警告', 'warning', 4000)

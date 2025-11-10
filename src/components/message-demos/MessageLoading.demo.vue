@@ -6,7 +6,7 @@
 </template>
 
 <script setup lang="ts">
-import { showMessage } from './message'
+import { showMessage } from '../../lib/message'
 const showLoading = () => {
   const close = showMessage('正在加载中...', 'loading', 0)
   setTimeout(() => {
